@@ -1,0 +1,48 @@
+
+.header{
+    width: 100%;
+    height: 80px;
+}
+
+.nav__wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 215, 250);
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    a{
+        color: black;
+    }
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+
+    a{
+        color: black;
+    }
+
+}
+
+.logo{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    img{
+        width: 50px;
+    }
+}
+
+.menu a:hover{
+    color: brown;
+}
